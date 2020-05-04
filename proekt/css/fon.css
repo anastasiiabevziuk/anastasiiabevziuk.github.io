@@ -1,0 +1,302 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.promo {
+    height: 800px;
+    background: url('../img/main_img/fon.jpg') center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+.container{
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo .logo_owl{
+    display: block;
+    margin: 0 auto;
+}
+.logo .logo_text{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+.title{
+    color: #f9bf3b;
+    font-size: 41px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 53px;
+}
+.line .line_text{
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 21px;
+}
+.text_too{
+    color: #f9bf3b;
+    font-size: 41px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+.promo .promo_text  {
+    padding: 0 13px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    font-family: "Roboto Light";
+    font-weight: 300;
+    text-align: center;
+}
+.promo .promo_text span {
+    color: #f9bf3b;
+    font-weight: 700; 
+}
+.promo .container .promo_btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+.down .down_text{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 70px;
+}
+.down .down_img{
+    width: 30px;
+    height: 19px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.info{
+    min-height: 604px;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+.info .title_one, .finish .finish_one{
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.finish .finish_one{
+    color: #efefef;
+}
+.info .line_yelow, .finish .finish_yelow{
+    display: block;
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+}
+.info .title_two{
+     color: #4a4a4a;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 17px;
+}
+.info .info_wrapper{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.info .info_wrapper .info_item{
+    width: 339px;
+    text-align: center;
+}
+.info .info_wrapper .info_item .info_img{
+    width: 100%;
+}
+.info .info_wrapper .info_item .info_descript{
+    color: #4a4a4a;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    margin-top: 33px;
+}
+.response{
+    min-height: 550px; 
+}
+.response .response_title{
+    color: #299cbd;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-left: 391px;
+    padding-top: 102px;
+    text-align: justify;
+    white-space: nowrap;
+}
+.response .response_text{
+    padding-left: 391px;
+    color: #4a4a4a;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: "Roboto Light";
+    font-weight: 300;
+    padding-top: 25px;
+}
+.response .response_text span {
+    font-weight: 900;
+}
+.response .response_woman{
+    position: absolute;
+    top: 48px;
+    left: -240px;
+    z-index: -1;
+}
+.finish {
+    min-height: 447px;
+    background: url('../img/main_img/botton.jpg')center center/cover no-repeat;
+    padding: 86px 0 79px 0;
+}
+.finish .finish_wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+.finish .finish_wrapper .finish_item{
+    width: 204px;
+}
+.finish .finish_wrapper .finish_item .finish_round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+.finish .finish_wrapper .finish_item .finish_describe{
+    color: #efefef;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+.gift{
+    min-height: 628px;
+    background-color: #efefef;
+    padding: 86px 0 87px 0;
+}
+.gift .gift_img{
+    display: block;
+    margin: 0 auto;
+}
+.gift .gift_text{
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+    padding-top: 42px;
+}
+.gift  .gift_btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    width: 313px;
+    height: 72px;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.11);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+}
+.lesson{
+    min-height: 515px;
+    padding: 89px 0 64px 0;
+}
+.lesson .lesson_img {
+    display: flex;
+    justify-content: center;
+}
+.lesson .lesson_title {
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 37px;
+}
+.lesson .lesson_time {
+    color: #299cbd;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+}
+.lesson .lesson_end{
+    color: #4a4a4a;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 25px;
+}
+.end{
+    min-height: 166px;
+    padding: 61px 0 69px 0;
+    background-color: #1a1a1a;
+}
+.end .end_link{
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+}
+a{
+    color: #888888;  
+}
+.end .end_link h2{
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+}
